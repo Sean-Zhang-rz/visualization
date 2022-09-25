@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    // "paths": {
+    //   "@/*": ["src/*"]
+    // },
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false /* Enable all strict type-checking options. */,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"]
+}
