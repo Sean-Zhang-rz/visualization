@@ -71,6 +71,9 @@
     }
     > .section4 {
       grid-area: box4;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     > .section5 {
       grid-area: box5;
@@ -80,7 +83,8 @@
     .trend,
     .time-range,
     .outcome,
-    .origin {
+    .origin,
+    .year-old-range {
       height: px(315);
       display: flex;
       flex-direction: column;
@@ -122,6 +126,26 @@
         .second {
           background: linear-gradient(90deg, #b92ae8 0%, #6773e7 100%);
         }
+      }
+    }
+    .year-old-range {
+      display: flex;
+      flex-direction: column;
+      height: px(363);
+      > .charts {
+        width: 100%;
+        flex: 1;
+        border: 1px solid red;
+        display: flex;
+        padding: px(30);
+      }
+      &-1,
+      &-2,
+      &-3 {
+        flex: 1;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
       }
     }
     .origin {
