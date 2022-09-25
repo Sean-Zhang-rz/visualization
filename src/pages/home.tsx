@@ -1,10 +1,11 @@
 import React from 'react';
-import { Chart1 } from './Components/charts/charts-1';
 import image from '../images/header.png';
 import './home.scss';
+import { Chart1 } from './Components/charts/charts-1';
 import { Chart2 } from './Components/charts/charts-2';
 import { Chart3 } from './Components/charts/charts-3';
 import { Chart4 } from './Components/charts/charts-4';
+import { Chart5 } from './Components/charts/charts-5';
 
 export const Home = () => {
   const year = new Date().getFullYear();
@@ -20,7 +21,9 @@ export const Home = () => {
           <Chart3 />
           <Chart4 />
         </section>
-        <section className="section3"></section>
+        <section className="bordered  section3">
+          <Chart5 />
+        </section>
         <section className="section4">
           <div className="borderd sec"></div>
         </section>
