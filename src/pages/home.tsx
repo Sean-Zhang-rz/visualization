@@ -30,7 +30,7 @@ export const Home = () => {
         </section>
         <section className="section4">
           <Chart6 />
-          <div className="bordered 年龄段">
+          <div className="bordered year-old-range">
             <h2>犯罪人员年龄段分布</h2>
             <div className="charts">
               <Chart7 />
