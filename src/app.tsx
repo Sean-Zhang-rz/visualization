@@ -7,6 +7,7 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+      123
       <HashRouter>
         <Switch>
           <Route exact path="/">
