@@ -5,6 +5,7 @@ import './home.scss';
 import { Chart2 } from './Components/charts/charts-2';
 
 export const Home = () => {
+  const year = new Date().getFullYear();
   return (
     <div className="home">
       <header style={{ backgroundImage: `url(${image})` }}></header>
@@ -24,6 +25,7 @@ export const Home = () => {
           <div className="borderd sec"></div>
         </section>
       </main>
+      <footer> &copy; Sean 2020-{year} </footer>
     </div>
   );
 };
