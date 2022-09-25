@@ -6,6 +6,7 @@ import { Chart2 } from './Components/charts/charts-2';
 import { Chart3 } from './Components/charts/charts-3';
 import { Chart4 } from './Components/charts/charts-4';
 import { Chart5 } from './Components/charts/charts-5';
+import { Chart6 } from './Components/charts/charts-6';
 
 export const Home = () => {
   const year = new Date().getFullYear();
@@ -21,11 +22,11 @@ export const Home = () => {
           <Chart3 />
           <Chart4 />
         </section>
-        <section className="bordered  section3">
+        <section className="bordered section3">
           <Chart5 />
         </section>
         <section className="section4">
-          <div className="borderd sec"></div>
+          <Chart6 />
         </section>
         <section className="section5">
           <div className="borderd sec"></div>

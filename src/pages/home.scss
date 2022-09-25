@@ -79,7 +79,8 @@
     .range,
     .trend,
     .time-range,
-    .outcome {
+    .outcome,
+    .origin {
       height: px(315);
       display: flex;
       flex-direction: column;
@@ -122,6 +123,10 @@
           background: linear-gradient(90deg, #b92ae8 0%, #6773e7 100%);
         }
       }
+    }
+    .origin {
+      height: px(753);
+      background: transparent;
     }
     .outcome {
       > table {
