@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    // "paths": {
-    //   "@/*": ["src/*"]
-    // },
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "target": "es5",
     "module": "commonjs",
     "strict": false /* Enable all strict type-checking options. */,
