@@ -1,17 +1,16 @@
 import React from 'react';
 import { Switch, HashRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-// import { Home } from './pages/home';
+import { Home } from './pages/home';
 // import { Config } from './pages/config';
 
 function App() {
   return (
     <div className="App">
-      123
       <HashRouter>
         <Switch>
           <Route exact path="/">
-            {/* <Home /> */}
+            <Home />
           </Route>
           <Route exact path="/config">
             {/* <Config /> */}
