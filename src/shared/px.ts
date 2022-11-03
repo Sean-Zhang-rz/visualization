@@ -1,1 +1,1 @@
-export const px = (n: number) => (n / 2420) * (window as any).pageWidth;
+export const px = (n: number) => (n / 2421) * (window as any).pageWidth;
